@@ -15,47 +15,6 @@ namespace WinForms_NEA_Interface
     }
     class ShortestPathAnalysis
     {
-        //The amount of vertices of graph 1
-        int Graph1Vertices = 5;
-        /*if (SelectedGraph==1){
-            CurrentGraph=*/
-        //Creating the first graph          
-        int[,] Graph1 = new int[5, 5]
-            {
-                {0,2,4,0,0 },
-                {2,0,1,5,0 },
-                {4,1,0,3,1 },
-                {0,5,3,0,0 },
-                {0,0,1,0,0 } };
-        //The amount of vertices of graph 2
-        int Graph2Vertices = 8;
-        //Creating the second graph
-        int[,] Graph2 = new int[8, 8]
-            {
-                {0,2,0,2,0,0,8,0 },
-                {2,0,1,0,0,3,0,5 },
-                {0,1,0,1,0,0,0,0 },
-                {2,0,1,0,2,0,0,0 },
-                {0,0,0,2,0,1,0,0 },
-                {0,3,0,0,1,0,3,0 },
-                {8,0,0,0,0,3,0,1 },
-                {0,5,0,0,0,0,1,0 } };
-        //The amount of vertices of graph 3
-        int Graph3Vertices = 10;
-        //Creating the third graph
-        int[,] Graph3 = new int[10, 10]
-        {
-                {0,0,1,4,5,0,0,0,0,15 },
-                {0,0,0,0,0,3,0,0,5,0 },
-                {1,0,0,2,0,0,0,0,0,0 },
-                {4,0,2,0,1,0,1,0,0,0 },
-                {5,0,0,1,0,0,0,0,0,0 },
-                {0,3,0,0,0,0,3,2,4,0 },
-                {0,0,0,1,0,3,0,6,0,0 },
-                {0,0,0,0,0,2,6,0,5,0 },
-                {0,5,0,0,0,4,0,5,0,3 },
-                {15,0,0,0,0,0,0,0,3,0 } };
-        
         int MinimumDistance(int CurrentGraphVertices, int[] Distance, bool[] VerticesSet)
         {
             var Minimum = int.MaxValue;
@@ -69,15 +28,6 @@ namespace WinForms_NEA_Interface
                 }
             }
             return Minimum_index;
-        }
-        public void PrintSolution(List<RouteNode> Route)
-        {
-            Console.Write("The route is ");
-            foreach (var RouteNode in Route)
-            {
-                Console.Write(RouteNode.NodeIndex + ", ");
-            }
-            Console.WriteLine("The route's total distance is " + Route.Last().Distance);
         }
         public List<RouteNode> DijkstraAlgorithm(int CurrentGraphVertices, int[,] CurrentGraph, int SourceNode, int DestinationNode)
         {

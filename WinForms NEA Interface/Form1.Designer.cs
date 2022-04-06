@@ -77,6 +77,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Graph 2";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -88,6 +89,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Graph 3";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // pictureBox1
             // 
@@ -123,12 +125,12 @@
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            comboBox1.DataSource = new int[] {
             1,
             2,
             3,
             4,
-            5});
+            5};
             this.comboBox1.Location = new System.Drawing.Point(64, 345);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
@@ -138,17 +140,15 @@
             // 
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            comboBox2.DataSource = new int[] {
             1,
             2,
             3,
             4,
             5,
-            1,
-            2,
-            3,
-            4,
-            5});
+            6,
+            7,
+            8};
             this.comboBox2.Location = new System.Drawing.Point(466, 345);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
@@ -158,6 +158,17 @@
             // 
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox3.FormattingEnabled = true;
+            comboBox3.DataSource = new int[] {
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10};
             this.comboBox3.Location = new System.Drawing.Point(831, 345);
             this.comboBox3.Name = "comboBox3";
             this.comboBox3.Size = new System.Drawing.Size(121, 21);
@@ -167,6 +178,12 @@
             // 
             this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox4.FormattingEnabled = true;
+            comboBox4.DataSource = new int[] {
+            1,
+            2,
+            3,
+            4,
+            5};
             this.comboBox4.Location = new System.Drawing.Point(243, 345);
             this.comboBox4.Name = "comboBox4";
             this.comboBox4.Size = new System.Drawing.Size(121, 21);
@@ -176,6 +193,15 @@
             // 
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox5.FormattingEnabled = true;
+            comboBox5.DataSource = new int[] {
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8};
             this.comboBox5.Location = new System.Drawing.Point(645, 345);
             this.comboBox5.Name = "comboBox5";
             this.comboBox5.Size = new System.Drawing.Size(121, 21);
@@ -185,6 +211,17 @@
             // 
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox6.FormattingEnabled = true;
+            comboBox6.DataSource = new int[] {
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10};
             this.comboBox6.Location = new System.Drawing.Point(1010, 345);
             this.comboBox6.Name = "comboBox6";
             this.comboBox6.Size = new System.Drawing.Size(121, 21);
@@ -269,6 +306,7 @@
             this.button1.TabIndex = 20;
             this.button1.Text = "Run";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 

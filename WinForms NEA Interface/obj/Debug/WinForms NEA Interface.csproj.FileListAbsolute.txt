@@ -8,3 +8,13 @@ C:\Users\H50003569\source\repos\WinForms NEA Interface\obj\Debug\WinForms NEA In
 C:\Users\H50003569\source\repos\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.csproj.CoreCompileInputs.cache
 C:\Users\H50003569\source\repos\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.exe
 C:\Users\H50003569\source\repos\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.pdb
+G:\WinformsNEA2\WinForms NEA Interface\bin\Debug\WinForms NEA Interface.exe.config
+G:\WinformsNEA2\WinForms NEA Interface\bin\Debug\WinForms NEA Interface.exe
+G:\WinformsNEA2\WinForms NEA Interface\bin\Debug\WinForms NEA Interface.pdb
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.csproj.AssemblyReference.cache
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms_NEA_Interface.Form1.resources
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms_NEA_Interface.Properties.Resources.resources
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.csproj.GenerateResource.cache
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.csproj.CoreCompileInputs.cache
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.exe
+G:\WinformsNEA2\WinForms NEA Interface\obj\Debug\WinForms NEA Interface.pdb
